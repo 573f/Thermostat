@@ -12,6 +12,8 @@
 		696D10D01BA89C4400177EB9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 696D10CE1BA89C4400177EB9 /* MainMenu.xib */; };
 		696D10DB1BA89C4400177EB9 /* ThermostatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D10DA1BA89C4400177EB9 /* ThermostatTests.swift */; };
 		696D10E61BA89C4400177EB9 /* ThermostatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D10E51BA89C4400177EB9 /* ThermostatUITests.swift */; };
+		696D10F51BA89C9C00177EB9 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D10F31BA89C9C00177EB9 /* MainWindowController.swift */; settings = {ASSET_TAGS = (); }; };
+		696D10F61BA89C9C00177EB9 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 696D10F41BA89C9C00177EB9 /* MainWindowController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		696D10E11BA89C4400177EB9 /* ThermostatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThermostatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		696D10E51BA89C4400177EB9 /* ThermostatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermostatUITests.swift; sourceTree = "<group>"; };
 		696D10E71BA89C4400177EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696D10F31BA89C9C00177EB9 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		696D10F41BA89C9C00177EB9 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				696D10CC1BA89C4400177EB9 /* Assets.xcassets */,
 				696D10CE1BA89C4400177EB9 /* MainMenu.xib */,
 				696D10D11BA89C4400177EB9 /* Info.plist */,
+				696D10F31BA89C9C00177EB9 /* MainWindowController.swift */,
+				696D10F41BA89C9C00177EB9 /* MainWindowController.xib */,
 			);
 			path = Thermostat;
 			sourceTree = "<group>";
@@ -223,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				696D10CD1BA89C4400177EB9 /* Assets.xcassets in Resources */,
+				696D10F61BA89C9C00177EB9 /* MainWindowController.xib in Resources */,
 				696D10D01BA89C4400177EB9 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				696D10F51BA89C9C00177EB9 /* MainWindowController.swift in Sources */,
 				696D10CB1BA89C4400177EB9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
